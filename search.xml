@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[个人博客搭建小记(二)]]></title>
+    <url>%2F2017%2F11%2F30%2F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B02%2F</url>
+    <content type="text"><![CDATA[前言 个人博客搭建的第四天，原本着手对默认主题landscape修改已经小有成效，深入后发现默认主题提供的功能有限，经过纠结还是采用了next主题，这款主题有很强大的功能，稍加改造应该能得到想要的效果 步骤 主题的安装：主要采用npm工具根据官方文档进行安装 自定义配置：结合网上很多博文进行修改和自定制（主要对主题配置文件和默认配置文件进行设置） 自定义样式：根据自己的需要对原有样式进行改造（next主题人性化提供了自定义的custom.styl文件，意外发现.styl后缀格式的文件里居然能直接写css样式），例如自定义标题，自定义个人信息面板等，js文件添加同理，需要定义文件外部引用 收获 略微学习了一点stylus语法 巩固了css样式及css3样式的编写 对网页布局有了重新认识 学习了一些其他git功能的使用]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[个人博客搭建小记(一)]]></title>
+    <url>%2F2017%2F11%2F28%2F%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E8%AE%B01%2F</url>
+    <content type="text"><![CDATA[个人博客搭建的第二天，今天主要研究了一下和hexo博客相关的文档，以及学习怎么对默认主题landscape样式的修改,毕竟如果能自己定制一款主题的话岂不是很棒，然而遇到的问题很多，例如,想修改.css文件却在主题的目录里找到了.style后缀的文件，之前没有接触过这种语法，一开始看的有点懵，不过仔细看一会发现其实语法和.css相差不多，不过貌似对于缩进很严格不缩进容易报错……然后参考了网上一些大佬的博客自定义css样式对我帮助很大，然后对hexo和github的使用进一步了解了一些，算是收获颇丰。]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我搭建的第一个个人的网站]]></title>
+    <url>%2F2017%2F11%2F27%2Ffirst%2F</url>
+    <content type="text"><![CDATA[您好！欢迎来到我的个人小站。]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>吐槽</tag>
+      </tags>
+  </entry>
+</search>
