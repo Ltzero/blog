@@ -1876,7 +1876,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #863494;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3050,4 +3050,25 @@ border-top
 }
 .posts-expand .post-title-link::before {
   background-color: #f1f1f1;
+}
+.music-button {
+  position: fixed;
+  right: 59px;
+  bottom: 45px;
+  width: 14px;
+  height: 14px;
+  padding: 5px;
+  background: #222;
+  line-height: 0;
+  z-index: 1050;
+  cursor: pointer;
+  text-align: center;
+  line-height: 14px;
+  display: none;
+}
+.music-button:hover {
+  color: #fff;
+}
+.music-block {
+  display: none;
 }

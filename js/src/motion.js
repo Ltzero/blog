@@ -3,6 +3,14 @@
 $(document).ready(function () {
   NexT.motion = {};
 
+  //自添加代码
+  
+  $(".music-button").click(function(){
+		$(".music-block").toggle("3000");
+  })
+  
+  
+  //
   var sidebarToggleLines = {
     lines: [],
     push: function (line) {
@@ -106,6 +114,9 @@ $(document).ready(function () {
         });
     },
     clickHandler: function () {
+	  //****
+	  $(".music-button").show();
+	  //****
       this.isSidebarVisible ? this.hideSidebar() : this.showSidebar();
       this.isSidebarVisible = !this.isSidebarVisible;
     },
