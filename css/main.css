@@ -1641,6 +1641,42 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
+.post-widgets {
+  border-top: 1px solid #eee;
+  padding-top: 9px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.post-widgets .post-meta-divider {
+  height: 28px;
+  color: #999;
+}
+.wp_rating {
+  height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 6px;
+}
+.social-like {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.vk_like {
+  width: 85px;
+  height: 21px;
+  padding-top: 7px;
+  align-self: center;
+}
+.fb_like {
+  height: 30px;
+  align-self: center;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1840,7 +1876,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #87b805;
+  background: #863494;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2371,6 +2407,29 @@ pre .javascript .function {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
+}
+#needsharebutton-postbottom {
+  position: relative;
+  cursor: pointer;
+  height: 26px;
+}
+#needsharebutton-postbottom .btn {
+  display: initial;
+  padding: 1px 4px;
+  border: 1px solid #222;
+  border-radius: 3px;
+}
+#needsharebutton-float {
+  position: fixed;
+  bottom: 38px;
+  left: -8px;
+  z-index: 9999;
+  cursor: pointer;
+}
+#needsharebutton-float .btn {
+  padding: 0 10px 0 14px;
+  border: 1px solid #222;
+  border-radius: 4px;
 }
 .page-archive .archive-page-counter {
   position: relative;
@@ -2925,8 +2984,8 @@ hr {
   top: 184px;
 }
 .site-meta {
-  margin-top: -100px;
-  margin-left: -100px;
+  margin-top: -130px;
+  margin-left: -130px;
   margin-right: auto;
   text-align: center;
   font-size: 40px;
@@ -2941,10 +3000,15 @@ hr {
   width: 100%;
   display: none;
 }
-.site-title {
+.custom-logo-site-title .site-title {
   font-size: 40px;
-  font-weight: bold;
-  color: rgba(255,255,255,0.9);
+  font-weight: none;
+  color: #fff;
+  font-family: "Microsoft YaHei", 'Lato', "PingFang SC", sans-serif;
+}
+.site-meta .site-title {
+  font-size: 40px;
+  font-weight: none;
 }
 #menu {
   width: 100%;
@@ -2983,4 +3047,7 @@ transition
   padding-top: 0;
   margin: 0px;
 border-top
+}
+.posts-expand .post-title-link::before {
+  background-color: #f1f1f1;
 }
