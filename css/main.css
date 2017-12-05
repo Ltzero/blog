@@ -2720,7 +2720,7 @@ hr {
 }
 .site-meta .site-title {
   font-size: 22px;
-  font-weight: bolder;
+  font-weight: none;
 }
 @media (max-width: 767px) {
   .site-meta .site-title {
